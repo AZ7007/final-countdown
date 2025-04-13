@@ -1,0 +1,46 @@
+
+
+/* Hover effect for nav links */
+.navbar-nav .nav-link:hover {
+    color: red;  
+}
+
+
+/* Footer */
+
+
+footer a {
+ text-decoration: none;
+ margin-right: 10px;
+ font-size: 1.1rem;
+}
+
+footer a:hover {
+    color: #f7f7f7;
+
+}
+
+/* icon colors  */
+footer .facebook {
+   color: #3b5998
+}
+
+footer .twitter {
+    color: #1da1f2
+}
+
+footer .instagram {
+    color: #e1306c
+}
+
+footer .linkedin {
+ color: #0077b5
+}
+
+footer .youtube {
+    color: #ff0000
+
+}
+
+
+/*  */
