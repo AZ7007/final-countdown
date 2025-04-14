@@ -1,5 +1,4 @@
-
-
+/* nav */
 
 
 /* Hover effect for nav links */
@@ -7,10 +6,16 @@
     color: red;  
 }
 
+/* Navbar logo */
+.navbar-brand img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
 
 
 /* carousel */
-
 
 .carousel-item img {
   width: 100%;        
@@ -46,6 +51,84 @@
 .carousel-caption .btn:hover {
   background-color: #e0a800; /* darker yellow */
 }
+
+
+
+/* about */
+
+#about-section {
+    background-color: #292c35; 
+}
+
+#about-section p {
+    color: white;
+}
+
+#about-section h2 {
+    margin: 0 auto; 
+    margin-top: 6rem;
+      color:#FFC857;
+    
+}
+
+.how-it-works {
+  display: flex;                   
+  justify-content: center;  
+  align-items: center;           
+  color: #E6E6FA;
+  margin-bottom: 10rem;  
+    
+}
+
+.how-it-works-text {
+   font-size: 1.5rem;
+    max-width: 900px;
+    margin: 0 auto; 
+
+}
+
+
+
+.how-it-works-text ul {
+  list-style: none; 
+  padding-left: 0; 
+}
+
+.how-it-works-text li strong {
+    font-size: 1.5rem;
+    color: #FFC857;
+    
+}
+
+li strong.circle {
+  color: #ed1b76;
+}
+li strong.star {
+  color: #249f9c;
+}
+
+li strong.square {
+  color: #f90909;
+}
+
+
+.how-it-works-text li {
+    font-size: 1.2rem;
+ }
+
+
+.fa-circle {
+    color:	#ed1b76
+
+}
+
+.fa-star{
+color:	#249f9c
+}
+
+.fa-square {
+color:	#f90909
+} 
 
 
 
@@ -86,4 +169,28 @@ footer .youtube {
 }
 
 
-/*  */
+/* media  */
+
+/* taplets */
+@media (max-width: 768px) {
+  .how-it-works {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .how-it-works-icons {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+
+/* mobile */
+@media (max-width: 576px) {
+   .navbar-nav .nav-link {
+      font-size: 1.2rem; 
+   }
+   .navbar-toggler {
+      font-size: 1.5rem;
+   }
+}
