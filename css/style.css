@@ -164,6 +164,127 @@ color:	#f90909
   margin-top: 30px;
 }
 
+
+
+/* games */
+
+/* Hero Section */
+.custom-section {
+  background-color: #1a1a1a; 
+  padding-top: 5rem; 
+  padding-bottom: 5rem; 
+}
+
+/* Welcome to the Arena */
+.custom-section h1 {
+  color: #ff0066; 
+  font-weight: bold;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+/* Description Text */
+.custom-section p {
+  color: #e1e1e1; 
+  font-size: 1.25rem;
+  font-weight: 300; 
+}
+
+/* Game Description Section */
+.game-desc-section {
+  background-color: #0c0c0c; 
+  color: #f8f9fa;
+  padding: 6rem 0;
+  text-align: center;
+}
+
+/* Heading */
+.section-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ff0066; 
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+/* Sub-text */
+.section-subtext {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-bottom: 3rem;
+  color: #ccc;
+}
+
+/* Icons grid box */
+.icons-grid .game-icon-box {
+  background-color: #1a1a1a; 
+  border-radius: 15px;
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+  transition: background-color 0.3s ease;
+}
+
+/* Hover icons */
+.icons-grid .game-icon-box:hover {
+  background-color: #f1cdd6; 
+}
+
+/* Icons color */
+.icons-grid i {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.agility i { color: #ff0066; } 
+.strategy i { color: #f2a900; } 
+.defense i { color: #28a745; } 
+.speed i { color: #0066ff; } 
+.risk i { color: #ff0033; } 
+
+/* Icon labels */
+.icon-label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #f8f9fa;
+}
+
+.cta-text {
+  font-size: 1.25rem;
+  margin-top: 2rem;
+  font-style: italic;
+}
+
+/* Join Now button */
+.join-btn {
+  margin-top: 1rem;
+  background-color: #ff0066; 
+  border: none;
+  color: #f8f9fa;
+  padding: 0.75rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-color 0.4s ease;
+}
+
+
+.join-btn:hover {
+  background-color: #b40029; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Footer */
 
 
@@ -201,36 +322,6 @@ footer .youtube {
 }
 
 
-/* games */
-
-.custom-section {
-  background-color: #1a1a1a; 
-  padding-top: 5rem; 
-  padding-bottom: 5rem;
-}
-
-.custom-section h1 {
-  color: #f30045;
-  font-weight: bold;
-}
-
-.custom-section p {
-  color: #e1e1e1;
-  font-size: 1.25rem;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* media  */
@@ -258,6 +349,9 @@ footer .youtube {
       font-size: 1.5rem;
    }
 }
+
+
+
 
 
 
