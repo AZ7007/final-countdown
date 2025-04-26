@@ -166,7 +166,12 @@ color:	#f90909
 
 
 
-/* games */
+
+
+
+
+
+
 
 /* Hero Section */
 .custom-section {
@@ -274,11 +279,88 @@ color:	#f90909
 }
 
 
+/* arena  */
 
+/* Arena Section */
+.arena {
+  background-color: #222222; 
+  padding: 5rem 0;
+  color: #f8f9fa; 
+  text-align: center;
+  margin-bottom: 4rem;
+}
 
+/* Heading */
+.arena.section-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ff0066; 
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
 
+/* Subtext */
+.arena.section-subtext {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #ccc;
+  margin-bottom: 3rem;
+}
 
+/* Arena Card */
+.arena-card {
+  background-color: #1a1a1a; 
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  padding: 1.5rem;
+  overflow: hidden;
+  text-align: center;
+  transition: box-shadow 0.3s ease;
+}
 
+.arena-card:hover {
+  box-shadow: 0 12px 25px rgba(2, 141, 2, 0.484); 
+}
+
+/* Arena Icon */
+.arena-icon {
+  font-size: 3rem;
+  color: #ff0066; 
+  margin-bottom: 1rem;
+}
+
+/* Arena Content */
+.arena-content h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff0066; 
+  margin-bottom: 0.75rem;
+}
+
+.arena-content p {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-bottom: 1.5rem;
+}
+
+/* Arena Features */
+.arena-features {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1.5rem;
+}
+
+.arena-features li {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ccc;
+  display: flex;
+  align-items: center;
+}
+
+.arena-features li i {
+  margin-right: 0.5rem;
+}
 
 
 
@@ -326,7 +408,7 @@ footer .youtube {
 
 /* media  */
 
-/* taplets */
+/* tablets */
 @media (max-width: 768px) {
   .how-it-works {
     flex-direction: column;
@@ -337,6 +419,12 @@ footer .youtube {
     flex-direction: row;
     justify-content: center;
   }
+
+  .arena-card {
+    margin-bottom: 2rem;
+  }
+
+
 }
 
 
@@ -349,9 +437,6 @@ footer .youtube {
       font-size: 1.5rem;
    }
 }
-
-
-
 
 
 
