@@ -201,6 +201,38 @@ footer .youtube {
 }
 
 
+/* games */
+
+.custom-section {
+  background-color: #1a1a1a; 
+  padding-top: 5rem; 
+  padding-bottom: 5rem;
+}
+
+.custom-section h1 {
+  color: #f30045;
+  font-weight: bold;
+}
+
+.custom-section p {
+  color: #e1e1e1;
+  font-size: 1.25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* media  */
 
 /* taplets */
@@ -226,3 +258,10 @@ footer .youtube {
       font-size: 1.5rem;
    }
 }
+
+
+
+
+
+
+
