@@ -363,6 +363,97 @@ color:	#f90909
 }
 
 
+/* face cards for organizers  */
+
+/* Organizer Section */
+.organizer-section {
+  background-image: url('/assets/images/organizer-img.png'); 
+  background-size: cover;
+  background-position: center;
+  color: #f8f9fa;
+  padding: 6rem 0;
+  position: relative;
+}
+
+.organizer-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  z-index: -1;
+}
+
+.organizer-card {
+  background-color: rgba(0, 0, 0, 0.6); 
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.organizer-card:hover {
+  transform: translateY(-10px);
+}
+
+.organizer-avatar {
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  border: 5px solid #ff0066; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.organizer-info h4 {
+  font-size: 1.5rem;
+  color: #ff0066;
+  margin-bottom: 0.5rem;
+}
+
+.organizer-info p {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 0.5rem;
+}
+
+.organizer-info p strong {
+  color: #ff0066;
+}
+
+.row.justify-content-center {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.col-md-6 {
+  display: flex;
+  justify-content: center;
+}
+
+.col-lg-3 {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+/* game rules  */
+
+
 
 
 
@@ -437,6 +528,7 @@ footer .youtube {
       font-size: 1.5rem;
    }
 }
+
 
 
 
