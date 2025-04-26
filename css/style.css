@@ -451,7 +451,82 @@ color:	#f90909
 
 
 
-/* game rules  */
+
+/* Game Rules */
+.game-rules {
+  background: #111; 
+  padding: 5rem 0;
+  color: #fff;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  color: #ff0066;
+  margin-bottom: 1rem;
+}
+
+.section-subtext {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 3rem;
+}
+
+.rules-list {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  gap: 3rem; 
+}
+
+.rule-card {
+  background: #222;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px #2dff0333;
+  width: 80%; 
+  max-width: 500px; 
+  transition: transform 0.3s ease; 
+}
+
+.rule-card:hover {
+  transform: scale(1.11); 
+  background-color:rgb(150, 49, 89)
+  
+}
+
+.rule-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.game-rules .fa-shield-halved {
+  color: #ff0066; 
+}
+
+.game-rules .fa-user-secret {
+  color: #f2a900; 
+}
+
+.game-rules .fa-hourglass-half {
+  color: #28a745; 
+}
+
+.game-rules .fa-scale-balanced {
+  color: #0066ff; 
+}
+
+
+.rule-card h4 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.rule-card p {
+  font-size: 1rem;
+  color: #ccc;
+}
 
 
 
