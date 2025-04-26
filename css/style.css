@@ -528,9 +528,83 @@ color:	#f90909
   color: #ccc;
 }
 
+/* form */
 
+/* Join Now Form Section */
+.join-now-section {
+  padding: 5rem 0;
+  background: #0d0d0d; 
+  color: #fff;
 
+}
 
+.join-now-form {
+  background: rgba(255, 255, 255, 0.03);
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(255, 0, 102, 0.4);
+  text-align: center;
+}
+
+.join-now-form h2 {
+  color: #ff0066;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.join-now-form p {
+  color: #ccc;
+  margin-bottom: 2rem;
+  
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-control {
+  background: rgba(255, 255, 255, 0.08);
+  border: none;
+  padding: 1rem;
+  width: 100%;
+  color: white;
+  font-size: 1rem;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+
+}
+
+.form-control::placeholder {
+   color: #fff;
+}
+
+.form-control:focus {
+  background: rgba(255, 255, 255, 0.15);
+  outline: none;
+  box-shadow: 0 0 10px #ff0066;
+    color: #fff;
+}
+
+.btn-join {
+  background-color: #ff0066;
+  border: none;
+  padding: 1rem;
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-join:hover {
+  background-color: #e60058;
+  transform: scale(1.05);
+}
 
 
 /* Footer */
@@ -570,8 +644,6 @@ footer .youtube {
 }
 
 
-
-
 /* media  */
 
 /* tablets */
@@ -590,6 +662,9 @@ footer .youtube {
     margin-bottom: 2rem;
   }
 
+  .join-now-form {
+    padding: 2rem 1.5rem;
+  }
 
 }
 
@@ -603,6 +678,9 @@ footer .youtube {
       font-size: 1.5rem;
    }
 }
+
+
+
 
 
 
