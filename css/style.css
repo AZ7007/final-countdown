@@ -367,7 +367,7 @@ color:	#f90909
 
 /* Organizer Section */
 .organizer-section {
-  background-image: url('/assets/images/organizer-img.png'); 
+  background-image: url('../assets/images/organizer-img.png');
   background-size: cover;
   background-position: center;
   color: #f8f9fa;
