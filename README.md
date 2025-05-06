@@ -12,6 +12,8 @@ A dark, immersive competition platform where players enter high-stakes fitness c
 - [Screenshots](#screenshots)
 - [Features](#features)
 - [Project Goals](#project-goals)
+- [W3 Validator](#w3-validator)
+- [Testing](#testing)
 - [Technologies Used](#technologies-used)
 - [How to Run the Project Locally](#how-to-run-the-project-locally)
 
@@ -84,7 +86,39 @@ For reference, the exact color palette can be found here: [Squid Game Color Pale
 - Present immersive, fictional game content
 
 ---
+## W3 Validator
 
+### Home Page
+- [W3C Validation Status for Home Page]
+ ![Home Page Screenshot](assets/Screenshot-home%202025-05-06%20at%2011.00.17.png)
+
+### Game Page
+- [ W3C Validation Status for Game Page]
+![Game Page Screenshot](assets/Screenshot-games%202025-05-06%20at%2011.00.52.png)
+
+### Join Page
+- [ W3C Validation Status for Join Page]
+![Join Page Screenshot](assets/Screenshot-join-now%202025-05-06%20at%2011.01.32.png)
+
+### CSS
+- [W3C Validation Status for CSS]
+![CSS Screenshot](assets/Screenshot-css%202025-05-06%20at%2011.18.57.png)
+
+
+## Testing
+
+#### Home Page Console Test:
+![Home Page Console Screenshot](assets/Screenshot%20HTML-TEST%202025-05-06%20at%2011.39.05.png)
+
+#### Game Page Console Test:
+![Game Page Console Screenshot](assets/Screenshot%20ABOUT-TEST%202025-05-06%20at%2011.39.43.png)
+
+#### Join Page Console Test:
+![Join Page Console Screenshot](assets/Screenshot%20JOIN-TEST%202025-05-06%20at%2011.40.05.png)
+
+
+
+---
 ## Technologies Used
 
 - **HTML5** – for structuring the web pages
