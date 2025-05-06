@@ -92,292 +92,73 @@
       </div>
     </nav>
 
-    <!--main content -->
+<!-- main -->
 
-    <main>
-      <div
-        id="carouselExampleAutoplaying"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <!--First -->
-          <div
-            class="carousel-item active"
-          >
-            <img
-              src="assets/images/banner.png"
-              class="d-block w-100"
-              alt="..."
-            />
-            <div
-              class="carousel-caption text-start"
-            >
-              <h1>Enter the Arena</h1>
-              <a href="join-now.html" class="btn btn-warning mt-3">Join Now</a>
-
-              
-            </div>
-          </div>
-
-          <!--Second -->
-          <div class="carousel-item">
-            <img
-              src="assets/images/fighting.png"
-              class="d-block w-100"
-              alt="..."
-            />
-            <div
-              class="carousel-caption text-start"
-            >
-              <h1>Ultimate Showdown</h1>
-              <a
-                href="#"
-                class="btn btn-warning mt-3"
-                >Join Now</a
-              >
-            </div>
-          </div>
-
-          <!--Third -->
-          <div class="carousel-item">
-            <img
-              src="assets/images/swimming.png"
-              class="d-block w-100"
-              alt="..."
-            />
-            <div
-              class="carousel-caption text-start"
-            >
-              <h1>Join the Battle</h1>
-              <a
-                href="#"
-                class="btn btn-warning mt-3"
-                >Join Now</a
-              >
-            </div>
-          </div>
+<section class="hero container-fluid">
+    <div class="row">
+        <div class="col-12 col-md-6 hero-image">
+            <img src="assets/images/banner.png" alt="Squid Game workout banner with a dark background" class="img-fluid">
         </div>
-
-        <!--buttons -->
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleAutoplaying"
-          data-bs-slide="prev"
-        >
-          <span
-            class="carousel-control-prev-icon"
-            aria-hidden="true"
-          ></span>
-          <span class="visually-hidden"
-            >Previous</span
-          >
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleAutoplaying"
-          data-bs-slide="next"
-        >
-          <span
-            class="carousel-control-next-icon"
-            aria-hidden="true"
-          ></span>
-          <span class="visually-hidden"
-            >Next</span
-          >
-        </button>
-      </div>
-    </main>
-
-    <!--About-->
-    <section
-      id="about-section"
-      class="py-2"
-    >
-      <div
-        class="container text-center"
-      >
-        <!-- About Header -->
-        <div>
-          <h2 class="display-5">
-            About
-          </h2>
-          <p class="lead">
-            Not just a game — it's
-            survival of the fittest,
-            fastest, and smartest
-          </p>
+        <div class="col-12 col-md-6 hero-text d-flex flex-column justify-content-center align-items-center p-4">
+            <h1>Final Countdown</h1>
+            <p>Only the strongest will make it to the end!!</p>
+            <a href="join-now.html" class="btn btn-primary btn-lg">Start Now</a>
         </div>
+    </div>
+</section>
 
-        <!-- How it works content -->
-        <div class="how-it-works">
-          <div
-            class="how-it-works-text"
-          >
-            <h2>How It Works</h2>
-            <p>
-              Every participant enters
-              the arena as an individual
-              — no teams, no
-              alliances... yet.
-            </p>
-            <ul>
-              <li>
-                Each player receives a
-                <strong class="circle"
-                  >Circle</strong
-                >,
-                <strong class="star"
-                  >Star</strong
-                >
-                or
-                <strong class="square"
-                  >Square</strong
-                >
-              </li>
-              <li>
-                These groups will
-                compete in different
-                <strong
-                  >challenges
-                </strong>
-                — some physical, some
-                mental, and some…
-                unexpected.
-              </li>
-              <li>
-                After initial rounds,
-                groups will be split and
-                re-formed into
-                <strong>Teams</strong>,
-                testing loyalty and
-                adaptability.
-              </li>
-              <li>
-                Only those who rise
-                through the ranks — and
-                survive eliminations —
-                will face the final
-                stage.
-              </li>
-            </ul>
-          </div>
+<!-- About Section -->
+<section class="about text-center py-5" id="about-section">
+    <h2>About Game</h2>
+    <p>Inspired by the popular Squid Game series, our workouts push you to your limits! From intense challenges to a competitive atmosphere, you’ll train like never before.</p>
+    <p>Join us for a unique fitness experience that brings the excitement and adrenaline of Squid Game to your workout routine. Challenge yourself and become the ultimate fitness survivor!</p>
+</section>
+
+<!-- How It Works Section -->
+<section class="how-it-works py-5">
+    <h2 class="text-center">How It Works</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+            <i class="fas fa-circle fa-3x text-danger mb-3"></i>
+            <p>Track your every move</p>
         </div>
-      </div>
-    </section>
+        <div class="col-md-4 text-center">
+            <i class="fas fa-star fa-3x text-info mb-3"></i>
+            <p>Climb the leaderboard</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <i class="fas fa-square fa-3x text-warning mb-3"></i>
+            <p>Face Squid Game–style fitness challenges</p>
+        </div>
+    </div>
+</section>
 
-    <!--services  -->
-
-    <section class="services">
-      <div
-        class="container d-flex gap-4 justify-content-center flex-wrap"
-      >
-        <!-- Card 1 Basketball-->
-        <div
-          class="card-with-icon text-center"
-        >
-          <i
-            class="fa-regular fa-circle fa-flip mb-3"
-            style="
-              --fa-animation-duration: 4s;
-              font-size: 24px;
-            "
-          ></i>
-          <div
-            class="card"
-            style="width: 18rem"
-          >
-            <img
-              src="assets/images/basketball.png"
-              class="card-img-top"
-              alt="Basketball challenge"
-            />
-            <div class="card-body">
-              <h5 class="card-title">
-                Slam Dunk Challenge
-              </h5>
-              <p class="card-text">
-                Outscore your opponents
-                in a fast-paced arena
-                where agility, teamwork,
-                and accuracy matter.
-              </p>
+<!-- Testimonials Section -->
+<section class="testimonials bg-dark text-white py-5">
+    <h2 class="text-center">What Survivors Say</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="testimonial text-center">
+                <p>"The most intense workout experience of my life — I felt like I was in the Squid Game!"</p>
+                <h5>— Mira C.</h5>
             </div>
-          </div>
         </div>
-
-        <!-- Card 2  Paintball  -->
-        <div
-          class="card-with-icon text-center"
-        >
-          <i
-            class="fa-regular fa-star fa-flip mb-3"
-            style="
-              --fa-animation-duration: 3s;
-              font-size: 24px;
-            "
-          ></i>
-          <div
-            class="card"
-            style="width: 18rem"
-          >
-            <img
-              src="assets/images/paintball.png"
-              class="card-img-top"
-              alt="Paintball challenge"
-            />
-            <div class="card-body">
-              <h5 class="card-title">
-                Paintball Ambush
-              </h5>
-              <p class="card-text">
-                Stealth and reflexes are
-                key. Navigate the
-                battlefield and
-                eliminate your rivals
-                before they get you.
-              </p>
+        <div class="col-md-6">
+            <div class="testimonial text-center">
+                <p>"This app keeps me on edge and in shape. Love the concept and style."</p>
+                <h5>— Kenji D.</h5>
             </div>
-          </div>
         </div>
+    </div>
+</section>
 
-        <!-- Card 3 Escape Room  -->
-        <div
-          class="card-with-icon text-center"
-        >
-          <i
-            class="fa-regular fa-square fa-flip mb-3"
-            style="
-              --fa-animation-duration: 2s;
-              font-size: 24px;
-            "
-          ></i>
-          <div
-            class="card"
-            style="width: 18rem"
-          >
-            <img
-              src="assets/images/escape-room.png"
-              class="card-img-top"
-              alt="Escape Room challenge"
-            />
-            <div class="card-body">
-              <h5 class="card-title">
-                Escape Room
-              </h5>
-              <p class="card-text">
-                Solve clues, crack
-                codes, and beat the
-                clock. Only the sharpest
-                minds make it out alive.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+<!-- Call to Action Section -->
+<section class="cta text-center py-5">
+    <h2>Ready to Join the Game?</h2>
+    <a href="join-now.html" class="btn btn-danger btn-lg">Sign Up Now</a>
+</section>
+
+
 
     <!-- footer -->
     <!--social media -->
@@ -486,3 +267,294 @@
     ></script>
   </body>
 </html>
+
+
+
+
+
+
+   <!--main content -->
+    <!-- 
+    <main>
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+        
+          <div
+            class="carousel-item active"
+          >
+            <img
+              src="assets/images/banner.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div
+              class="carousel-caption text-start"
+            >
+              <h1>Enter the Arena</h1>
+              <a href="join-now.html" class="btn btn-warning mt-3">Join Now</a>
+
+              
+            </div>
+          </div>
+
+     
+          <div class="carousel-item">
+            <img
+              src="assets/images/fighting.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div
+              class="carousel-caption text-start"
+            >
+              <h1>Ultimate Showdown</h1>
+              <a
+                href="#"
+                class="btn btn-warning mt-3"
+                >Join Now</a
+              >
+            </div>
+          </div>
+
+     
+          <div class="carousel-item">
+            <img
+              src="assets/images/swimming.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div
+              class="carousel-caption text-start"
+            >
+              <h1>Join the Battle</h1>
+              <a
+                href="#"
+                class="btn btn-warning mt-3"
+                >Join Now</a
+              >
+            </div>
+          </div>
+        </div>
+
+     
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden"
+            >Previous</span
+          >
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden"
+            >Next</span
+          >
+        </button>
+      </div>
+    </main>
+
+  
+    <section
+      id="about-section"
+      class="py-2"
+    >
+      <div
+        class="container text-center"
+      >
+    
+        <div>
+          <h2 class="display-5">
+            About
+          </h2>
+          <p class="lead">
+            Not just a game — it's
+            survival of the fittest,
+            fastest, and smartest
+          </p>
+        </div>
+
+      
+        <div class="how-it-works">
+          <div
+            class="how-it-works-text"
+          >
+            <h2>How It Works</h2>
+            <p>
+              Every participant enters
+              the arena as an individual
+              — no teams, no
+              alliances... yet.
+            </p>
+            <ul>
+              <li>
+                Each player receives a
+                <strong class="circle"
+                  >Circle</strong
+                >,
+                <strong class="star"
+                  >Star</strong
+                >
+                or
+                <strong class="square"
+                  >Square</strong
+                >
+              </li>
+              <li>
+                These groups will
+                compete in different
+                <strong
+                  >challenges
+                </strong>
+                — some physical, some
+                mental, and some…
+                unexpected.
+              </li>
+              <li>
+                After initial rounds,
+                groups will be split and
+                re-formed into
+                <strong>Teams</strong>,
+                testing loyalty and
+                adaptability.
+              </li>
+              <li>
+                Only those who rise
+                through the ranks — and
+                survive eliminations —
+                will face the final
+                stage.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="services">
+      <div
+        class="container d-flex gap-4 justify-content-center flex-wrap"
+      >
+     
+        <div
+          class="card-with-icon text-center"
+        >
+          <i
+            class="fa-regular fa-circle fa-flip mb-3"
+            style="
+              --fa-animation-duration: 4s;
+              font-size: 24px;
+            "
+          ></i>
+          <div
+            class="card"
+            style="width: 18rem"
+          >
+            <img
+              src="assets/images/basketball.png"
+              class="card-img-top"
+              alt="Basketball challenge"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Slam Dunk Challenge
+              </h5>
+              <p class="card-text">
+                Outscore your opponents
+                in a fast-paced arena
+                where agility, teamwork,
+                and accuracy matter.
+              </p>
+            </div>
+          </div>
+        </div>
+
+       
+        <div
+          class="card-with-icon text-center"
+        >
+          <i
+            class="fa-regular fa-star fa-flip mb-3"
+            style="
+              --fa-animation-duration: 3s;
+              font-size: 24px;
+            "
+          ></i>
+          <div
+            class="card"
+            style="width: 18rem"
+          >
+            <img
+              src="assets/images/paintball.png"
+              class="card-img-top"
+              alt="Paintball challenge"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Paintball Ambush
+              </h5>
+              <p class="card-text">
+                Stealth and reflexes are
+                key. Navigate the
+                battlefield and
+                eliminate your rivals
+                before they get you.
+              </p>
+            </div>
+          </div>
+        </div>
+
+  
+        <div
+          class="card-with-icon text-center"
+        >
+          <i
+            class="fa-regular fa-square fa-flip mb-3"
+            style="
+              --fa-animation-duration: 2s;
+              font-size: 24px;
+            "
+          ></i>
+          <div
+            class="card"
+            style="width: 18rem"
+          >
+            <img
+              src="assets/images/escape-room.png"
+              class="card-img-top"
+              alt="Escape Room challenge"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Escape Room
+              </h5>
+              <p class="card-text">
+                Solve clues, crack
+                codes, and beat the
+                clock. Only the sharpest
+                minds make it out alive.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
